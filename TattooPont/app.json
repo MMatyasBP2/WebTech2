@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "TattooPont",
+    "slug": "TattooPont",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1a24625e-0be1-47ad-9a8e-0e70dfe2404e"
+      }
+    },
+    "android": {
+      "package": "com.martinakmatyas.TattooPont"
+    },
+    "ios": {
+      "bundleIdentifier": "com.martinakmatyas.TattooPont"
+    }
+  }
+}
