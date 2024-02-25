@@ -19,7 +19,7 @@ export default function Validation() {
         setScanned(true);
 
         try {
-            const response = await fetch(`https://europe-west1.gcp.data.mongodb-api.com/app/tattoopontbackend-xwtxj/endpoint/vouchers?id=${data}`, {
+            const response = await fetch(`https://europe-west1.gcp.data.mongodb-api.com/app/tattoopontbackend-xwtxj/endpoint/voucher?id=${data}`, {
                 method: 'GET'
             });
 
